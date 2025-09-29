@@ -1,9 +1,10 @@
-[gd_scene load_steps=8 format=3 uid="uid://ctgsapflrvkv5"]
+[gd_scene load_steps=9 format=3 uid="uid://ctgsapflrvkv5"]
 
 [ext_resource type="PackedScene" uid="uid://dw3j2vyee8s50" path="res://Asset_pre/kenney_graveyard-kit/Models/GLB format/bench.glb" id="1_8gbba"]
 [ext_resource type="PackedScene" uid="uid://c5yogjtgi14jf" path="res://Scenes/player.tscn" id="1_jjgbg"]
 [ext_resource type="PackedScene" uid="uid://dfer20vnt17b4" path="res://Asset_pre/kenney_graveyard-kit/Models/GLB format/coffin.glb" id="2_jjvhh"]
 [ext_resource type="PackedScene" uid="uid://dmojgdsjkjbrf" path="res://Asset_pre/kenney_graveyard-kit/Models/GLB format/pine-crooked.glb" id="3_jjvhh"]
+[ext_resource type="FontFile" uid="uid://dhdvwlexmsnyk" path="res://Asset_pre/THSarabunNew/THSarabunNew.ttf" id="5_kry3j"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_7u77a"]
 size = Vector3(60, 2, 60)
@@ -69,4 +70,6 @@ offset_top = -23.0
 offset_right = 113.0
 grow_horizontal = 2
 grow_vertical = 0
+theme_override_fonts/font = ExtResource("5_kry3j")
+theme_override_font_sizes/font_size = 20
 text = "นายสุรพจน์ หินศรี 663380040-1"
