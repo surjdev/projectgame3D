@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://bsg12as8nt376"]
+
+[ext_resource type="PackedScene" uid="uid://cmp4khgldpri3" path="res://Asset_pre/kenney_blocky-characters_20/Models/GLB format/character-a.glb" id="1_g7x32"]
+
+[node name="character-a2" instance=ExtResource("1_g7x32")]
+
+[node name="Neck" type="Node3D" parent="character-a" index="1"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0, 2.11583, 0)
+
+[node name="Camera3D" type="Camera3D" parent="character-a/Neck" index="0"]
+transform = Transform3D(-10, 0, 8.74228e-07, 0, 10, 0, -8.74228e-07, 0, -10, 0, 0.620251, 3.5451)
+fov = 59.0625
